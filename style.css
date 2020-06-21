@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+ html {
+    font-family: Arial,sans-serif;
+
+}
+
+body {
+    font-size: 15px;
+    height: 100vh;
+    position: relative;
+}
+
+#search-section {
+    
+    text-align: center;
+    height: 60%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+
+#navbar {
+    
+    width: 100%;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    
+}
+
+
+#nav-left {
+    display: flex;
+    align-items: left;
+    margin-top: -25px;
+}
+
+#nav-right {
+    display: flex;
+    align-items: right;
+    margin: 15px;
+}
+
+.apps {
+    width: 30px;
+    height: 30px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    display: inline-block;
+    background-size: 528px 68px;
+    background-position: -132px 26px;
+}
+
+.user {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url('https://randomuser.me/api/portraits/women/63.jpg');
+    background-size: 32px 30px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+#logo {
+    margin-bottom: 25px;
+    text-align: center;
+}
+ 
+#searchbar {
+    margin-bottom: 25px;
+}
+
+#search {
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #E8E8E8;
+    height: 40px;
+    width: 600px;
+    
+}
+
+#searchbuttons input {
+    border: 1px solid  ghostwhite;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    margin: 10px 5px;
+    line-height: 25px;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    background-color: #F5F5F5;
+}
+
+footer {
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: .5rem 1rem;
+    position: relative;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    max-width: 100%;
+    line-height: 3.0;
+    margin-top: -60px;
+}
+
+#foot1 {
+    display: flex;
+    align-items: left;
+  
+}
+#foot2 {
+    display: flex;
+    align-items: right;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: .80;
+
+}
+
